@@ -1,0 +1,33 @@
+
+.tags li {
+    float: left;
+    padding: 0px;
+    margin: 0px 5px 5px 0px;
+    list-style-type: none;
+    line-height: 25px;
+}
+.tags li a {
+    border: 1px solid #f2f2f2;
+    color: #909090;
+    float: left;
+    font-size: 12px;
+    padding: 3px 8px;
+    -webkit-transition: all 0.2s;
+       -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+         -o-transition: all 0.2s;
+            transition: all 0.2s;
+}
+.tags li a:hover {
+    background-color: #0076E8;
+    color: #fff;
+}
+
+.tagsSpanHidden {
+	display: hidden;	
+	
+}
+.tagsSpanHidden a{
+	display: hidden;	
+	
+}
