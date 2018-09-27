@@ -267,3 +267,20 @@
     float: right; }
   .daterangepicker .calendar.left {
     clear: none !important; } }
+    
+    
+
+.daterangepicker .table-condensed tbody tr td.available:first-child {
+	 color: red;
+}
+
+.daterangepicker .table-condensed tbody tr td.available:last-child {
+	 color: blue;
+}
+.daterangepicker .table-condensed tbody tr td.off {
+	 color: #999  !important;
+	 opacity:0.5;
+	 
+}
+
+

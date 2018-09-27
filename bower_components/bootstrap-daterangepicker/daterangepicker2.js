@@ -64,23 +64,25 @@
         this.buttonClasses = 'btn btn-sm';
         this.applyClass = 'btn-success';
         this.cancelClass = 'btn-default';
+       
+                
+        this.locale = {
+        	
+            direction: 'ltr', 
+            format: 'YYYY-MM-DD',
+            separator: ' - ',
+            applyLabel: '적용',
+            cancelLabel: '취소',
+            weekLabel: 'W',
+            customRangeLabel: '사용자 설정',
+            daysOfWeek: ['일', '월', '화', '수', '목', '금','토'],
+            monthNames: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+            firstDay: moment.localeData().firstDayOfWeek()            
+        };
 
-		//this.format = 'MM/DD/YYYY';
-		this.format = 'YYYY-MM-DD';
-		this.separator = ' ~ ';
-		
-		this.locale = {
-			applyLabel: '적용하기',
-			cancelLabel: '취소',
-			fromLabel: '부터',
-			toLabel: '까지',
-			weekLabel: 'W',
-			customRangeLabel: '사용자 설정',
-			daysOfWeek: moment.weekdaysMin(),
-			monthNames: moment.monthsShort(),
-			firstDay: moment.localeData()._week.dow
-		};	
+        
 
+        
         this.callback = function() { };
 
         //some state information
