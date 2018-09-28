@@ -70,7 +70,7 @@
         	
             direction: 'ltr', 
             format: 'YYYY-MM-DD',
-            separator: ' - ',
+            separator: ' ~ ',
             applyLabel: '적용',
             cancelLabel: '취소',
             weekLabel: 'W',
